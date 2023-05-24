@@ -33,15 +33,19 @@ const Footer = () => {
         <div className="socialIcons">
           <Link to="https://www.linkedin.com/in/tiago-rodriguez/">
             <span className="icon">
-              <FaFacebookF />
+              <FaLinkedin />
             </span>
           </Link>
-          <span className="icon">
-            <FaInstagram />
-          </span>
-          <span className="icon">
-            <FaTwitter />
-          </span>
+          <Link to={"https://www.instagram.com/tiitirodriguez/"}>
+            <span className="icon">
+              <FaInstagram />
+            </span>
+          </Link>
+          <Link to={"https://twitter.com/Rastiiti"}>
+            <span className="icon">
+              <FaTwitter />
+            </span>
+          </Link>
         </div>
       </ContentWrapper>
     </footer>
