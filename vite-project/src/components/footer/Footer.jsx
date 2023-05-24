@@ -4,6 +4,7 @@ import {
   FaInstagram,
   FaTwitter,
   FaLinkedin,
+  FaGithub,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -44,6 +45,11 @@ const Footer = () => {
           <Link to={"https://twitter.com/Rastiiti"}>
             <span className="icon">
               <FaTwitter />
+            </span>
+          </Link>
+          <Link to={"https://github.com/Titi24Pehuajo"}>
+            <span className="icon">
+              <FaGithub />
             </span>
           </Link>
         </div>
