@@ -12,14 +12,14 @@ const Trending = () => {
   const { data, loading } = useFetch(`/trending/movie/${endpoint}`);
 
   const onTabChange = (tab) => {
-    setEndpoint(tab === "Dias" ? "dias" : "semanas");
+    setEndpoint(tab === "Day" ? "day" : "week");
   };
 
   return (
     <div className="carouselSection">
       <ContentWrapper>
         <span className="carouselTitle">Tendencias</span>
-        <SwitchTabs data={["Dia", "Semana"]} onTabChange={onTabChange} />
+        <SwitchTabs data={["Day", "Week"]} onTabChange={onTabChange} />
       </ContentWrapper>
       <Carousel data={data?.results} loading={loading} />
     </div>

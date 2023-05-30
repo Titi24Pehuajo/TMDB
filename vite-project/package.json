@@ -1,5 +1,5 @@
 {
-  "name": "The_movie_Place",
+  "name": "the_movie_place",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -22,6 +22,7 @@
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.6.2",
     "react-select": "^5.7.0",
+    "react-simple-typewriter": "^5.0.1",
     "sass": "^1.57.1"
   },
   "devDependencies": {
