@@ -4,7 +4,6 @@ import { SlMenu } from "react-icons/sl";
 import { VscChromeClose } from "react-icons/vsc";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { Link } from "react-router-dom";
 import "../styles/header.scss";
 
 import ContentWrapper from "./ContentWrapper";

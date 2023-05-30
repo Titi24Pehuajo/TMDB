@@ -6,8 +6,8 @@ import "./style.scss";
 
 import { fetchDataFromApi } from "../../utils/api";
 import ContentWrapper from "../../components/ContentWrapper";
-import MovieCard from "../../components/movieCard/MovieCard";
-import Spinner from "../../components/spinner/Spinner";
+import MovieCard from "../../components/MovieCard";
+import Spinner from "../../components/Spinner";
 import noResults from "../../assets/no-results.png";
 
 const SearchResult = () => {

@@ -5,7 +5,7 @@ import "./style.scss";
 
 import useFetch from "../../../hooks/useFetch";
 
-import Img from "../../../components/lazyLoadImage/Img";
+import Img from "../../../components/Img";
 import ContentWrapper from "../../../components/ContentWrapper";
 
 const HeroBanner = () => {
