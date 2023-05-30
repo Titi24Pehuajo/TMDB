@@ -3,7 +3,8 @@ import { HiOutlineSearch } from "react-icons/hi";
 import { SlMenu } from "react-icons/sl";
 import { VscChromeClose } from "react-icons/vsc";
 import { useNavigate, useLocation } from "react-router-dom";
-
+import { useTypewriter, Cursor } from "react-simple-typewriter";
+import { Link } from "react-router-dom";
 import "./style.scss";
 
 import ContentWrapper from "../contentWrapper/ContentWrapper";
@@ -70,12 +71,20 @@ const Header = () => {
     setMobileMenu(false);
   };
 
+  const [text] = useTypewriter({
+    words: ["The Movie Place🎬"],
+    loop: {},
+  });
+
   return (
     <header className={`header ${mobileMenu ? "mobileView" : ""} ${show}`}>
       <ContentWrapper>
-        <div className="logo" onClick={() => navigate("/")}>
-          <img src={logo} alt="" />
-        </div>
+        <h1 className="titulo" onClick={() => navigate("/")}>
+          {text}
+
+          <Cursor />
+        </h1>
+
         <ul className="menuItems">
           <li className="menuItem" onClick={() => navigationHandler("movie")}>
             Peliculas
