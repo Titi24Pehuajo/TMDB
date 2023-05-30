@@ -3,16 +3,16 @@ import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import dayjs from "dayjs";
 
-import "./style.scss";
+import "../styles/detailsBanner.scss";
 
-import ContentWrapper from "../../../components/ContentWrapper";
-import useFetch from "../../../hooks/useFetch";
-import Genres from "../../../components/Genres";
-import CircleRating from "../../../components/CircleRating";
-import Img from "../../../components/Img.jsx";
-import PosterFallback from "../../../assets/no-poster.png";
-import { PlayIcon } from "../Playbtn";
-import VideoPopup from "../../../components/VideoPopup";
+import ContentWrapper from "../components/ContentWrapper";
+import useFetch from "../hooks/useFetch";
+import Genres from "../components/Genres";
+import CircleRating from "../components/CircleRating";
+import Img from "../components/Img.jsx";
+import PosterFallback from "../assets/no-poster.png";
+import { PlayIcon } from "./Playbtn";
+import VideoPopup from "../components/VideoPopup";
 
 const DetailsBanner = ({ video, crew }) => {
   const [show, setShow] = useState(false);

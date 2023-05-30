@@ -3,13 +3,13 @@ import { useParams } from "react-router-dom";
 import InfiniteScroll from "react-infinite-scroll-component";
 import Select from "react-select";
 
-import "./style.scss";
+import "../styles/explore.scss";
 
-import useFetch from "../../hooks/useFetch";
-import { fetchDataFromApi } from "../../utils/api";
-import ContentWrapper from "../../components/ContentWrapper";
-import MovieCard from "../../components/MovieCard";
-import Spinner from "../../components/Spinner";
+import useFetch from "../hooks/useFetch";
+import { fetchDataFromApi } from "../utils/api";
+import ContentWrapper from "../components/ContentWrapper";
+import MovieCard from "../components/MovieCard";
+import Spinner from "../components/Spinner";
 
 let filters = {};
 
