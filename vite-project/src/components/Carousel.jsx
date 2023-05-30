@@ -11,7 +11,7 @@ import ContentWrapper from "./ContentWrapper";
 import Img from "./lazyLoadImage/Img";
 import PosterFallback from "../assets/no-poster.png";
 import CircleRating from "./CircleRating";
-import Genres from "./genres/Genres";
+import Genres from "./Genres";
 
 import "../styles/carousel.scss";
 

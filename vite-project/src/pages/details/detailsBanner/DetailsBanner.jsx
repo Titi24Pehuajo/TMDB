@@ -7,7 +7,7 @@ import "./style.scss";
 
 import ContentWrapper from "../../../components/ContentWrapper";
 import useFetch from "../../../hooks/useFetch";
-import Genres from "../../../components/genres/Genres";
+import Genres from "../../../components/Genres";
 import CircleRating from "../../../components/CircleRating";
 import Img from "../../../components/lazyLoadImage/Img.jsx";
 import PosterFallback from "../../../assets/no-poster.png";

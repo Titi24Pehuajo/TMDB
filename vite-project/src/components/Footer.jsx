@@ -8,9 +8,9 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-import ContentWrapper from "../ContentWrapper";
+import ContentWrapper from "./ContentWrapper";
 
-import "./style.scss";
+import "../styles/footer.scss";
 
 const Footer = () => {
   return (

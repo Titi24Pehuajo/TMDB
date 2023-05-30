@@ -5,9 +5,9 @@ import { VscChromeClose } from "react-icons/vsc";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { Link } from "react-router-dom";
-import "./style.scss";
+import "../styles/header.scss";
 
-import ContentWrapper from "../ContentWrapper";
+import ContentWrapper from "./ContentWrapper";
 
 const Header = () => {
   const [show, setShow] = useState("top");
