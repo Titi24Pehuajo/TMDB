@@ -7,7 +7,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { Link } from "react-router-dom";
 import "./style.scss";
 
-import ContentWrapper from "../contentWrapper/ContentWrapper";
+import ContentWrapper from "../ContentWrapper";
 
 const Header = () => {
   const [show, setShow] = useState("top");
