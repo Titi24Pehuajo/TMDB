@@ -14,15 +14,15 @@ import Spinner from "../components/Spinner";
 let filters = {};
 
 const sortbyData = [
-  { value: "popularity.desc", label: "Popularity Descending" },
-  { value: "popularity.asc", label: "Popularity Ascending" },
-  { value: "vote_average.desc", label: "Rating Descending" },
-  { value: "vote_average.asc", label: "Rating Ascending" },
+  { value: "popularity.desc", label: "Popularidad descendente" },
+  { value: "popularity.asc", label: "Popularidad Ascendente" },
+  { value: "vote_average.desc", label: "Rating Descendente" },
+  { value: "vote_average.asc", label: "Rating Ascendente" },
   {
     value: "primary_release_date.desc",
-    label: "Release Date Descending",
+    label: "Fecha de estreno descendente",
   },
-  { value: "primary_release_date.asc", label: "Release Date Ascending" },
+  { value: "primary_release_date.asc", label: "Fecha de estreno ascendente" },
   { value: "original_title.asc", label: "Title (A-Z)" },
 ];
 
@@ -112,7 +112,7 @@ const Explore = () => {
               getOptionLabel={(option) => option.name}
               getOptionValue={(option) => option.id}
               onChange={onChange}
-              placeholder="Select genres"
+              placeholder="Seleccionar Genero"
               className="react-select-container genresDD"
               classNamePrefix="react-select"
             />
@@ -122,7 +122,7 @@ const Explore = () => {
               options={sortbyData}
               onChange={onChange}
               isClearable={true}
-              placeholder="Sort by"
+              placeholder="Ordenar por"
               className="react-select-container sortbyDD"
               classNamePrefix="react-select"
             />
@@ -147,7 +147,9 @@ const Explore = () => {
                 })}
               </InfiniteScroll>
             ) : (
-              <span className="resultNotFound">Sorry, Results not found!</span>
+              <span className="resultNotFound">
+                Disculpa, no hay resultados!
+              </span>
             )}
           </>
         )}
