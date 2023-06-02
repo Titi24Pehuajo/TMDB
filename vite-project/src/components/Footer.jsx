@@ -32,26 +32,26 @@ const Footer = () => {
           pariatur.
         </div>
         <div className="socialIcons">
-          <Link to="https://www.linkedin.com/in/tiago-rodriguez/">
+          <a href="https://www.linkedin.com/in/tiago-rodriguez/">
             <span className="icon">
               <FaLinkedin />
             </span>
-          </Link>
-          <Link to={"https://www.instagram.com/tiitirodriguez/"}>
+          </a>
+          <a href="https://www.instagram.com/tiitirodriguez/">
             <span className="icon">
               <FaInstagram />
             </span>
-          </Link>
-          <Link to={"https://twitter.com/Rastiiti"}>
+          </a>
+          <a href="https://twitter.com/Rastiiti">
             <span className="icon">
               <FaTwitter />
             </span>
-          </Link>
-          <Link to={"https://github.com/Titi24Pehuajo"}>
+          </a>
+          <a href="https://github.com/Titi24Pehuajo">
             <span className="icon">
               <FaGithub />
             </span>
-          </Link>
+          </a>
         </div>
       </ContentWrapper>
     </footer>
